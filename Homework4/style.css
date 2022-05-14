@@ -1,0 +1,394 @@
+body {
+background: rgb(31, 34, 36);
+font-family: 'Inter', sans-serif;
+color: #D6DDDE;
+}
+
+.license-text {
+   position: absolute;
+   width: 111px;
+   height: 33px;
+   left: 33px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 33px;
+   color: #D6DDDE;
+}
+
+.upgrade-btn {
+   align-items: flex-start;
+   padding: 8px 20px;
+   gap: 10px;
+   position: absolute;
+   width: 137px;
+   height: 35px;
+   left: 85%;
+   top: 35px;
+   background: #18A7FF;
+   border-radius: 4px;
+}
+
+.status {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 60%;
+    margin-top: 0;
+}
+
+.free {
+   white-space: nowrap;
+   width: 100%;
+   overflow: hidden;
+   text-overflow: clip;
+   border: 0px solid #000000;
+   background-color: black;
+}
+
+.free-div {
+   display: inline-block;
+   position: relative;
+   clear: both;
+   height:48px;
+   width: 48px;
+   margin-top: 10px;
+   text-align:center;
+   border-radius: 2px;
+   margin-right: 40px;
+ }
+ 
+.free-div :before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 51%;
+   background: #499861;
+   transform: skew(0deg, 10deg);
+   color: rgb(0, 0, 0);
+   z-index:-1;
+ }
+ 
+.free-div:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+   width: 50%;
+   background: #499861;
+   transform: skew(0deg, -10deg);
+   z-index:-1;
+ }
+
+.pro-div {
+   display: inline-block;
+   position: relative;
+   clear: both;
+   height:48px;
+   width: 48px;
+   margin-top: 10px;
+   text-align:center;
+   margin-right: 40px;
+   opacity: 55%;
+   border-radius: 2px;
+ }
+ 
+.pro-div :before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 50%;
+   background: #598B8D;
+   transform: skew(0deg, 10deg);
+   color: rgb(0, 0, 0);
+   z-index:-1;
+ }
+ 
+.pro-div:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+   width: 50%;
+   background: #598B8D;
+   transform: skew(0deg, -10deg);
+   z-index:-1;
+ }
+
+.pro {
+   white-space: nowrap;
+   width: 100%;
+   overflow: hidden;
+   text-overflow: clip;
+   border: 0px solid #000000;
+   background-color: black;
+}
+
+.vip-div {
+   display: inline-block;
+   position: relative;
+   clear: both;
+   height:48px;
+   width: 48px;
+   margin-top: 10px;
+   text-align:center;
+   margin-right: 40px;
+   opacity: 55%;
+   border-radius: 2px;
+ }
+ 
+.vip-div :before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 50%;
+   background: #DA9422;
+   transform: skew(0deg, 10deg);
+   color: rgb(0, 0, 0);
+   z-index:-1;
+ }
+ 
+.vip-div:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+   width: 50%;
+   background: #DA9422;
+   transform: skew(0deg, -10deg);
+   z-index:-1;
+ }
+
+.vip {
+   white-space: nowrap;
+   width: 100%;
+   overflow: hidden;
+   text-overflow: clip;
+   border: 0px solid #000000;
+   background-color: black;
+}
+
+.section {
+   display: flex;
+   margin: 7px;
+   padding: 10px;
+   left: 10%;
+}
+
+h4 {
+   margin: 7px;
+   padding: 5px;
+   cursor: pointer;
+   margin-inline: 25px;
+}
+
+.line-under-header {
+   border-top: 2px solid rgba(139, 144, 145, 0.25);
+   width: 95%;
+}
+
+.clikc-hr {
+   border-top: 3px solid rgb(1, 42, 247);
+   width: 135px;
+   margin-left: 325px;
+}
+
+h3 {
+   margin: 40px;
+}
+
+.first-costumer {
+   margin: 10px;
+   background-color: #1A1C1E;
+   height: 22px;
+   border-radius: 6px;
+   padding: 15px;
+   margin-left: 40px;
+   font-size: 18px;
+   width: 91%;
+}
+
+.Systems-header-first {
+   color: #D6DDDE;
+   opacity: 50%;
+}
+
+.System-name {
+   margin-inline: 60px;
+}
+
+.ID {
+   margin-left: 300px;
+}
+
+.data, .licens-status  {
+   margin-left: 120px;
+}
+
+.arrow {
+   margin-inline: 10px;
+}
+
+.first-ID {
+   margin-left: 230px;
+}
+
+.first-data {
+   margin-left: 100px;
+}
+
+.count-license {
+    margin-left: 140px;
+}
+
+.add-license {
+   background: #499861;
+   border-radius: 4px;
+   width: 113px;
+   height: 31px;
+   margin-left: 250px;
+   cursor: pointer;
+}
+
+.remove-license {
+   width: 82px;
+   height: 31px;
+   background: #CC4343;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.first-costumer-systems {
+   margin-top: 50px;
+}
+
+.first-system, .second-system{
+    margin: 10px;
+    background-color: #1A1C1E;
+    height: 22px;
+    border-radius: 6px;
+    padding: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+    width: 95.3%;
+}
+
+.first-system-data, .second-system-data {
+   margin-left: 480px;
+}
+
+.first-system-status {
+   margin-left: 515px;
+   cursor: pointer;
+}
+
+.second-system-status {
+   margin-left: 490px;
+   cursor: pointer;
+}
+
+.first-costumer-systems-header {
+   color: #D6DDDE;
+   opacity: 50%;
+}
+
+.first-costumer-systems-header-license-name {
+   margin-left: 65px;
+}
+
+.first-costumer-systems-header-name {
+   margin-left: 495px;
+}
+
+.line-horizontal {
+   width: 10px;
+   height: 180px;
+   margin-left: 0;
+   position: absolute;
+   margin-top: 5px;
+   border-color: #161819;
+   background-color: #161819;
+}
+
+.first-costumer-line, .second-costumer-line {
+   width: 37px;
+   margin-left: 12px;
+   height: 10px;
+   margin-top: 32px;
+   position: absolute;
+   border-color: #161819;
+   background-color: #161819;
+}
+
+.second-costumer {
+   margin: 10px;
+   background-color: #1A1C1E;
+   height: 22px;
+   border-radius: 6px;
+   padding: 15px;
+   margin-left: 40px;
+   font-size: 18px;
+   width: 91%;
+}
+
+.Systems-header-second {
+   color: #D6DDDE;
+   opacity: 50%;
+   margin-top: 210px;
+}
+
+.second-ID {
+   margin-left: 310px;
+}
+
+.Systems-header-second {
+   margin-left: 670px;
+}
+
+.footer-div {
+   border-style: dotted;
+   height: 300px;
+   margin: 20px;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+}
+
+.footer-head {
+   margin: 40px;
+   margin-bottom: 10px;
+}
+
+.add-file {
+   border: 1px solid;
+   width: 60px;
+   height: 50px;
+}
+
+#getFile {
+   display: none;
+   cursor: pointer;
+}
+
+.add-file-btn {
+   background-color: rgb(31, 34, 36);
+   border: aliceblue;
+}  
+
+.file-add-arrow {
+   color: aliceblue;
+   font-size: 30px;
+}
